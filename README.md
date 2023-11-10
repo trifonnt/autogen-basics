@@ -4,7 +4,7 @@
 **Steps**
 1. Create a new project folder.
 2. Create a new virtual environment.
-3. Activate the venv `source venv/bin/activate`
+3. Activate the venv `source .venv/bin/activate`
 4. Install packages with `pip install pyautogen`.
 5. Create the OAI_CONFIG_LIST file.
 6. Go to https://platform.openai.com/account/api-keys to create the new OpenAI API key.
