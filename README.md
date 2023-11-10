@@ -15,3 +15,5 @@
 11. Create the Assistant Agent
 12. Create the User Proxy Agent
 13. Initiate Chat.
+14. Build Docker image `docker build -t autogen-basic`
+15. Start new docker container with the new image `docker run -it autogen-basic`
