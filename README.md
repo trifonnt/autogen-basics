@@ -3,7 +3,7 @@
 
 **Steps**
 1. Create a new project folder.
-2. Create a new virtual environment.
+2. Create a new virtual environment `python -m venv .venv`.
 3. Activate the venv `source .venv/bin/activate`
 4. Install packages with `pip install pyautogen`.
 5. Create the OAI_CONFIG_LIST file.
