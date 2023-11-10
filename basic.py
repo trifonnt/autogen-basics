@@ -5,12 +5,12 @@ config_list = autogen.config_list_from_json(env_or_file="OAI_CONFIG_LIST")
 
 # create the assistant agent
 assistant = autogen.AssistantAgent(
-    name="assistant", llm_config={"config_list": config_list}
+    name="AI_Assistant", llm_config={"config_list": config_list}
 )
 
 # Create the user proxy agent
 user_proxy = autogen.UserProxyAgent(
-    name="UserProxy", code_execution_config={"work_dir": "results"}
+    name="UserProxy", code_execution_config={"work_dir": "generated-code"}
 )
 
 # Start the conversation
