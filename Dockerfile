@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . /app
 
-# # Explicitly copy the config
+# # Explicitly copy the config - NOT NEEDED! It must be passed as volume mount!
 # COPY OAI_CONFIG_LIST /app/OAI_CONFIG_LIST
 
 
